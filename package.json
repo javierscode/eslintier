@@ -2,8 +2,9 @@
   "name": "linttier",
   "version": "1.0.0",
   "description": "CLI to setup Eslint & Prettier in JS & TS projects.",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/javierscode/linttier/issues"
   },
-  "homepage": "https://github.com/javierscode/linttier#readme"
+  "homepage": "https://github.com/javierscode/linttier#readme",
+  "devDependencies": {
+    "typescript": "5.3.3"
+  }
 }
